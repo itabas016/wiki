@@ -12,17 +12,17 @@ date: 2017-08-27 21:19:01
 
 可是手贱又把gcp的内存从1.7改成了0.6, 想着能省就省点吧. 鬼知道重新分配了个ip, 原来直联日本, 现在搞得要绕美国了, 延迟老高了. 哎~
 
-![detail-trace](../static/images/vps-trace-detail-1.png)
+![detail-trace](../../static/images/vps-trace-detail-1.png)
 
-![trace-gui](../static/images/vps-trace-detail-2.png)
+![trace-gui](../../static/images/vps-trace-detail-2.png)
 
 > 不管怎么说gcp好是好，可还是太贵了, 于是又想着以前的Bandwagon Vps内存256还是OVZ的, 反正也快到期了, 要不换一个大点内存的. 就选了个年付LA直联中国的.
 
 > 鬼知道测试下来的指标太不满意了. 广大同胞们都把Bandwagon玩坏了. 哎~
 
-![detail-trace](../static/images/vps-d-trace-detail-3.png)
+![detail-trace](../../static/images/vps-d-trace-detail-3.png)
 
-![trace-gui](../static/images/vps-d-trace-detail-4.png)
+![trace-gui](../../static/images/vps-d-trace-detail-4.png)
 
 ## Vps 指标 ##
 
@@ -37,7 +37,7 @@ or
 curl -Lso- bench.sh | bash
 ```
 
-![bench-detail](../static/images/vps-d-bench-detail.png)
+![bench-detail](../../static/images/vps-d-bench-detail.png)
 
 于是又单独查看了Cpu, Memory, Disk等各项参数, swap也没开, 硬盘读写简直了...
 
@@ -46,7 +46,7 @@ curl -Lso- bench.sh | bash
 ```bash
 cat /proc/cpuinfo
 ```
-![vps-d-cpu](../static/images/vps-d-cpu.png)
+![vps-d-cpu](../../static/images/vps-d-cpu.png)
 
 ### Disk IO ###
 
@@ -54,11 +54,11 @@ cat /proc/cpuinfo
 dd if=/dev/zero of=test bs=64k count=4k oflag=dsync
 dd if=/dev/zero of=test bs=8k count=256k conv=fdatasync
 ```
-![vps-d-io](../static/images/vps-d-io.png)
+![vps-d-io](../../static/images/vps-d-io.png)
 
 相比之前的vps简直差太多了, LA机房直联中国严重超售了: 
 
-![vps-io](../static/images/vps-io.png)
+![vps-io](../../static/images/vps-io.png)
 
 ### Network ###
 
@@ -69,11 +69,11 @@ wget --no-check-certificate https://raw.githubusercontent.com/sivel/speedtest-cl
 chmod +x speedtest.py
 ./speedtest.py
 ```
-![vps-d-speedtest](../static/images/vps-d-speedtest.png)
+![vps-d-speedtest](../../static/images/vps-d-speedtest.png)
 
 然后用mtr分别测试联通和电信：
 
-![vps-d-mtr](../static/images/vps-d-mtr.png)
+![vps-d-mtr](../../static/images/vps-d-mtr.png)
 
 ### Unix Bench Score ###
 
@@ -84,6 +84,6 @@ wget --no-check-certificate https://github.com/teddysun/across/raw/master/unixbe
 chmod +x unixbench.sh
 ./unixbench.sh
 ```
-![vps-d-unix-bench](../static/images/vps-d-unix-bench.png)
+![vps-d-unix-bench](../../static/images/vps-d-unix-bench.png)
 
 跑分倒还可以，只是这个磁盘读写不能让人满意. 现在倒是不知道该如何取舍了~

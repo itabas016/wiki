@@ -74,7 +74,7 @@ date: 2017-08-12 12:33:43
 
 > 如果没有注明单位，则默认单位是px(If no unit is specified, the default unit is px).
 
-![css-length-units](../static/images/css-length-units.png)
+![css-length-units](../../static/images/css-length-units.png)
 
 ## CSS Box Mode(盒子模式) ##
 
@@ -84,7 +84,7 @@ Box Model relevant command:
 * Border
 * Padding
 
-![css-box-model](../static/images/css-box-model.png)
+![css-box-model](../../static/images/css-box-model.png)
 
 ## CSS Margin ##
 
@@ -103,7 +103,7 @@ Box Model relevant command:
 
 > 边框形状
 
-![css-border-style](../static/images/css-border-style.png)
+![css-border-style](../../static/images/css-border-style.png)
 
 #### border-width ####
 

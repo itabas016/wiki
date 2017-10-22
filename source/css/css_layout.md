@@ -49,7 +49,7 @@ main {
   border-width: 10px;
 }
 ```
-![sample-1](../static/images/box-model-sample-1.png)![sample-2](../static/images/box-model-sample-2.png)
+![sample-1](../../static/images/box-model-sample-1.png)![sample-2](../../static/images/box-model-sample-2.png)
 
 由这个例子看出外边框padding撑起的大小导致所占空间不同。如果想要width显示相同大小，这时引入一个新的属性`box-sizing`它只支持**IE8+**, 样式如下：
 ```css
@@ -61,7 +61,7 @@ main {
 ```
 
 ## position ##
-`position`的属性值有很多, 可以参照这里[css-position](../css/css_rules.html#position)
+`position`的属性值有很多, 可以参照这里[css-position](../../css/css_rules.html#position)
 
 `static`, `relative` 和 `fixed`相对比较容易理解。
 
@@ -98,7 +98,7 @@ article img {
 
 当浏览器窄到无法容纳侧边栏的菜单时，会将布局显示成一列。
 
-看例子:--> [demo这里](../static/sample/sample-responsive.html)
+看例子:--> [demo这里](../../static/sample/sample-responsive.html)
 
 ```css
 @media screen and (min-width:600px) {
