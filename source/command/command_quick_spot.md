@@ -2,6 +2,7 @@
 title: "Linux Command扫盲点"
 layout: page
 date: 2017-04-07 01:22:19
+toc: true
 ---
 
 [TOC]
