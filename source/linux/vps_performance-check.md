@@ -1,10 +1,9 @@
 ---
 title: "Vps性能检测"
-layout: page
+layout: post
 date: 2017-08-27 21:19:01
+toc: true
 ---
-
-[TOC]
 
 > 折腾了两天Vps, 真可恨呢~
 

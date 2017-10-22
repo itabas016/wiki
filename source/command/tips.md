@@ -1,10 +1,9 @@
 ---
 title: "Linux tips"
-layout: page
+layout: post
 date: 2017-04-16 22:22:32
+toc: true
 ---
-
-[TOC]
 
 ## 强大grep命令 ##
 

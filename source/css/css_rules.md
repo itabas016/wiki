@@ -1,10 +1,9 @@
 ---
 title: "CSS语法梳理"
-layout: page
+layout: post
 date: 2017-08-12 12:33:43
+toc: true
 ---
-
-[TOC]
 
 ## CSS Line Mode(套用方式) ##
 

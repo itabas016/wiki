@@ -1,10 +1,9 @@
 ---
 title: "Hello Simiki"
-layout: page
+layout: post
 date: 2017-04-02 21:05:34
+toc: true
 ---
-
-[TOC]
 
 # Hello #
 

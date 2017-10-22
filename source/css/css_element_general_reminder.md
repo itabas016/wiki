@@ -1,10 +1,9 @@
 ---
 title: "CSS遗忘项"
-layout: page
+layout: post
 date: 2017-04-05 22:25:11
+toc: true
 ---
-
-[TOC]
 
 ## bg 用图片做背景自适应屏幕 ##
 

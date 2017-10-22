@@ -1,10 +1,9 @@
 ---
 title: "SSH Key相关问题"
-layout: page
+layout: post
 date: 2017-04-08 11:32:53
+toc: true
 ---
-
-[TOC]
 
 ## Summary ##
 

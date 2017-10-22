@@ -1,10 +1,9 @@
 ---
 title: "Vps开启bbr加速"
-layout: page
+layout: post
 date: 2017-08-29 23:06:12
+toc: true
 ---
-
-[TOC]
 
 ## One-Step ##
 

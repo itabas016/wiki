@@ -1,10 +1,9 @@
 ---
 title: "Git command补漏"
-layout: page
+layout: post
 date: 2017-04-08 22:11:04
+toc: true
 ---
-
-[TOC]
 
 ## Git容易忘的command ##
 

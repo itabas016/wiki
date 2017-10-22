@@ -1,10 +1,9 @@
 ---
 title: "Git Hooks快捷使用"
-layout: page
+layout: post
 date: 2017-04-06 23:05:01
+toc: true
 ---
-
-[TOC]
 
 ## Quick Start ##
 

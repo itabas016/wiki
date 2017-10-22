@@ -1,10 +1,9 @@
 ---
 title: "CSS布局"
-layout: page
+layout: post
 date: 2017-08-13 19:07:01
+toc: true
 ---
-
-[TOC]
 
 ## display ##
 大多数元素的display属性默认值是`block`或`inline`, 一个block元素称之为块级元素，一个inline元素称之为行内元素。

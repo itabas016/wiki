@@ -1,10 +1,9 @@
 ---
 title: "CSharp Core - Points"
-layout: page
+layout: post
 date: 2017-09-16 22:56:12
+toc: true
 ---
-
-[TOC]
 
 ## Data type(数据类型) ##
 

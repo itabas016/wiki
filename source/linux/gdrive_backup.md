@@ -1,10 +1,9 @@
 ---
 title: "用Google Drive备份Vps数据"
-layout: page
+layout: post
 date: 2017-08-26 21:40:12
+toc: true
 ---
-
-[TOC]
 
 Recently, I have a plan to order a new vps service, but some data need migration and backup to google drive. So I found a tool [gdrive](https://github.com/prasmussen/gdrive), Let's begin!
 
