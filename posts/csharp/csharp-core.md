@@ -9,7 +9,7 @@ toc: true
 
 ## Data type(数据类型) ##
 
-C#是一种类型安全的编程语言，CLR支持两种类型：**引用类型(reference type)**和**(struct type)**
+C#是一种类型安全的编程语言，CLR支持两种类型：**引用类型(reference type)**和**值类型(struct type)**
 
 * 内存必须从托管堆上分配
 * 堆上分配的每个对象都有一些额外的成员，这些成员必须初始化
@@ -116,12 +116,12 @@ public static void Swap<T>(ref T a, ref T b)
 * `ArrayList`允许存储多类型字段，所以属于**类型非安全**，在存储或检索值类型时通常发生装箱和取消装箱操作，带来很大的性能耗损。
 
 其他泛型集合类：
-* BigList<T>    有序的，操作100个以上数据项时效率高
-* Bag<T>        无序的，允许重复
-* OrderedBag<T> 有序的，允许重复
-* Set<T>        无序的，不允许重复
-* OrderedSet<T> 有序的，不允许重复
-* Deque<T>      双端队列，在起始处insert/remove比List快
+* `BigList<T>`    有序的，操作100个以上数据项时效率高
+* `Bag<T>`        无序的，允许重复
+* `OrderedBag<T>` 有序的，允许重复
+* `Set<T>`        无序的，不允许重复
+* `OrderedSet<T>` 有序的，不允许重复
+* `Deque<T>`      双端队列，在起始处insert/remove比List快
 
 另外还有`OrderedDictionary<TKey, TValue>`,`MultiDictionary<TKey, TValue>`等字典系泛型集合。
 
@@ -154,7 +154,7 @@ internal sealed class ConstructorConstraint<T> where T : new() {
 }
 ```
 
-## 接口(Interface)##
+## 接口(Interface) ##
 
 如果接口方法是`sealed`派生类不能重写它。但派生类可以重新继承同一个接口，并为该接口方法提供自己的实现。
 
