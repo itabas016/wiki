@@ -10,7 +10,7 @@
 ### CSharp ###
 
 * **[CSharp Core - Points](posts/csharp/csharp-core.md)** 
-
+* **[CSharp GC](posts/csharp/csharp-gc.md)** 
 ### CSS ###
 
 * **[CSS遗忘项](posts/css/css_element_general_reminder.md)** 
