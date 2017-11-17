@@ -1,6 +1,6 @@
 # Personal Wikipedia #
 
-> _This wiki records daily life and work, extends tech knowledges and hackles forgetful points. It's very concise and clear to ckeck and view._
+> _This wiki records daily life and work, extends tech knowledges and hackles forgetful points. It's very concise and clear to check and view._
 
 ### Command ###
 
@@ -10,7 +10,6 @@
 ### CSharp ###
 
 * **[CSharp Core - Points](posts/csharp/csharp-core.md)** 
-* **[CSharp Object](posts/csharp/csharp-object.md)** 
 
 ### CSS ###
 
